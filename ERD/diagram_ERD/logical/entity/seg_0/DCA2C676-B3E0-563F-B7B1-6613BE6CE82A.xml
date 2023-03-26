@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCA2C676-B3E0-563F-B7B1-6613BE6CE82A" name="Provides">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 14:15:28 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_provide" id="69797FEF-5A9F-9A26-215D-A079E57BD728">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 15:02:17 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="delivery_time" id="2E8D1EAA-6EF3-7F24-1132-BB443EB72AA3">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 15:02:49 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="delivery_cost" id="DF82EAD7-CA9E-33D5-DAFE-8B83892451BB">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 15:03:18 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="DF44B2F9-0615-5158-0102-826D87204AE2">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 15:03:39 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="completed" id="E0B1E490-2FAE-3E5B-A2B1-353339ABFC9A">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 15:03:52 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_provider" id="7C338473-24C5-D5FA-1DF1-566AE3E18F80">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-26 11:31:10 UTC</createdTime>
+<generatorID>092829E8-8601-3831-D379-4CCF40EE48B9</generatorID>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<referedAttribute>43B1824C-8114-9C38-C75E-D063A8CB6CFD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_order" id="2EFD7D1F-358E-149D-F392-678931D49CA3">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-26 11:34:38 UTC</createdTime>
+<generatorID>A0897949-18CD-1A84-6495-5C3B106979EF</generatorID>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<referedAttribute>3B37F196-B9A8-D000-AB1B-5AFD14F7F160</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4AB8C12C-13D9-7C79-5A80-51F811CE4A38" name="Provides PK">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 15:02:33 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69797FEF-5A9F-9A26-215D-A079E57BD728</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

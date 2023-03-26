@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7C920A1-A583-B99D-3869-F2186E30789A" name="Returned_products">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 08:52:15 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_returned_product" id="A3E4F642-8F8B-F2F1-97D5-BDE3413DA929">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 08:53:28 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_return" id="1F0808DB-2B0E-81B3-C7C1-AEDE6487ECF9">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 08:53:28 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_product" id="B1540855-7EF4-2489-36C0-AC349A096EAC">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 08:53:28 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6DE25B6-BB75-951B-60D4-5034B5F608FD" name="Returned_products_PK">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:06:38 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3E4F642-8F8B-F2F1-97D5-BDE3413DA929"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="224B2944-0CAC-3FC9-DC7D-12B76BAD9EA7" name="Producers">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 08:58:15 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_producer" id="7ED0079F-4061-D866-4BAC-7D38B53F71CF">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:01:48 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="0EB9A8E5-E1A9-DC97-99F3-A76D833093EC">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:01:48 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="www" id="3DB4C5B1-DFAA-C93B-2669-A0FEB1ECF749">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:01:48 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tin" id="A213C26B-1982-B9B9-2B24-5A3D09934105">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:01:48 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number_1" id="4E95937A-F1D5-62F7-6D74-E977A8571275">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:01:48 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number_2" id="2CAA21DD-A242-1E80-2951-919380F59DDC">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:01:48 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e-mail" id="4FD765DA-11EE-58DC-9124-0CF446C7849B">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:01:48 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="663405E4-9E26-EF56-5E1A-F54C66205C6E" name="Producers_PK">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:01:48 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ED0079F-4061-D866-4BAC-7D38B53F71CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

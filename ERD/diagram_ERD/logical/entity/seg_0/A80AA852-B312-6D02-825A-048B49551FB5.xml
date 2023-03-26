@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A80AA852-B312-6D02-825A-048B49551FB5" name="wh_Orders">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 14:14:59 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_order" id="3B37F196-B9A8-D000-AB1B-5AFD14F7F160">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 14:59:00 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_of_order" id="E63DC442-5463-ABB1-FD8F-D4DCE573018B">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 14:59:39 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_of_delivery" id="0F28B494-0CF1-B682-55F0-B3D0ACBFB544">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 15:01:00 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="B690D26A-C781-7268-2F0F-72095F3079F3">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 15:01:20 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="completed" id="386A34E9-C3DB-0DA4-641D-53BC633E4CAB">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 15:01:30 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_provide" id="F85B2F29-6932-BAEC-AFEE-DC055854968F">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-26 11:32:23 UTC</createdTime>
+<generatorID>A0897949-18CD-1A84-6495-5C3B106979EF</generatorID>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<referedAttribute>69797FEF-5A9F-9A26-215D-A079E57BD728</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4325DB58-FE92-255D-5BFC-16EEA13A1DB1" name="wh_Orders PK">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 14:59:20 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B37F196-B9A8-D000-AB1B-5AFD14F7F160</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

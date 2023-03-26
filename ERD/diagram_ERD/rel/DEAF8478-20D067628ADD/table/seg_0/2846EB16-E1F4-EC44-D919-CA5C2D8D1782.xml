@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2846EB16-E1F4-EC44-D919-CA5C2D8D1782" name="Customers_account">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 08:35:23 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_account" id="9F759155-D160-5F75-B0E9-0A9CF7AA1FF9">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 08:36:44 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="6AFE8A9F-DA49-C7BF-B2DD-DD1C7F8F185C">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 08:36:44 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="294C1C9A-2BB9-60D8-5681-AC36EC9D5838">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 08:36:44 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F959B7E1-7B79-1980-A867-5EE824C65828" name="Customers_account_PK">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 08:36:44 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F759155-D160-5F75-B0E9-0A9CF7AA1FF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACA9EC62-BCAB-5172-7C76-4571115D1DF6" name="wh_Ordered_products">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 14:15:07 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_ordered_products" id="0E4BB88F-7E3A-958C-87DC-5CEAA2CB13B7">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 15:04:22 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="52E5296F-2023-8FFC-12F6-53485013D4E6">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 15:05:18 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bought_price" id="1AF4491C-DF36-7B75-F2A2-7E4F1ED25EFB">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 15:05:26 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_order" id="D815CDF3-A88A-95D1-94BA-29766C1B8DFC">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-26 11:34:52 UTC</createdTime>
+<generatorID>55E0CCA7-36A9-A61C-BC3E-301A6D5FE886</generatorID>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<referedAttribute>3B37F196-B9A8-D000-AB1B-5AFD14F7F160</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_product" id="845CC8A6-BE7B-A029-6CD5-ECEDBDC59B1E">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-26 11:35:27 UTC</createdTime>
+<generatorID>383CD66E-9E00-95ED-F846-BAB1DBEB9904</generatorID>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<referedAttribute>242A7F71-840B-061A-30B7-F2FD2FFEA4AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="825EAAAC-8E01-766E-D212-3A94343DD768" name="wh_Ordered_products">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:16:11 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_ordered_products" id="4C6DE463-F023-F507-94AD-F746EE9B7422">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:19:26 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_order" id="92DC40F0-6190-B125-0512-F394AA71203A">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:19:26 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_product" id="BBF8BD53-2044-D30C-81D1-3E07E574FA4E">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:19:26 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_producer" id="44DA4E19-68A3-259D-15E6-04334FCC2563">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:19:26 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="C267596F-7067-7039-E9C3-FCE6FCA72B56">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:19:26 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bought_price" id="8E037914-554E-FE7C-7AC4-C4B28A4830BC">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:19:26 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>100000</dataTypeScale>
+<ownDataTypeParameters>,2,100000</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56DAC08A-0F5D-F383-5213-40FBBD914B83" name="wh_Ordered_products_PK">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 09:19:26 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C6DE463-F023-F507-94AD-F746EE9B7422"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

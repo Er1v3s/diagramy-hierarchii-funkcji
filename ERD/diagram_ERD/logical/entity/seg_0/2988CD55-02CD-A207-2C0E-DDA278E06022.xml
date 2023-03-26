@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2988CD55-02CD-A207-2C0E-DDA278E06022" name="Opinions">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 14:13:22 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_opinion" id="5A4623F2-E2A2-F16C-0B9C-01002701052B">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 14:38:21 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stars" id="586D2A40-AD10-5E79-260E-097595253284">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 14:38:58 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="message" id="13F2FD03-33B0-483B-92F9-9E706EC5CB52">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 14:39:15 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creation_date" id="49F266A0-3493-0008-C987-0D3ECC71F4D6">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 14:39:37 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_product" id="0E402580-73D2-3B4F-B3EE-3B64B8D324F0">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-26 10:25:24 UTC</createdTime>
+<generatorID>276566DB-47CC-85CE-C1DB-18B6B69531C3</generatorID>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<referedAttribute>242A7F71-840B-061A-30B7-F2FD2FFEA4AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_customer1" id="E43FC35D-37F5-14D6-8648-F2D996243811">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-26 10:27:57 UTC</createdTime>
+<generatorID>E01DFA43-99A3-4DA6-DEF0-DB47CE75D95B</generatorID>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<referedAttribute>D0196AF1-C58B-C548-FDD5-54C921ABB40D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D4CE4C49-A1E2-3430-FA91-07917690DEF1" name="Opinions PK">
+<createdBy>filip_statkiewicz</createdBy>
+<createdTime>2023-03-25 14:38:54 UTC</createdTime>
+<ownerDesignName>diagram_ERD</ownerDesignName>
+<engineerTo>
+<item key="DEAF8478-A6E3-3C85-EB1A-20D067628ADD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A4623F2-E2A2-F16C-0B9C-01002701052B</attributeRef>
+<attributeRef>E43FC35D-37F5-14D6-8648-F2D996243811</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
