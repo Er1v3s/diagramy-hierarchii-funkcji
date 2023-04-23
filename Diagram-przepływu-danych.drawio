@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T13:07:22.968Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="vdVJZPDqbcDx6Q-cWdGw" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T13:08:49.020Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15" etag="o8y4ApDjYA5Eng5dOope" version="21.2.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1908" dy="1294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,9 +31,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HA2_PNLJppdeOKZP9nE9-14" value="Parametry wyszukiwania" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="HA2_PNLJppdeOKZP9nE9-13">
+        <mxCell id="HA2_PNLJppdeOKZP9nE9-14" value="Parametry &lt;br&gt;wyszukiwania" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="HA2_PNLJppdeOKZP9nE9-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="29" y="46" as="offset" />
+            <mxPoint x="-1" y="13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HA2_PNLJppdeOKZP9nE9-15" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.131;entryY=1.057;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="HA2_PNLJppdeOKZP9nE9-8" target="HA2_PNLJppdeOKZP9nE9-11">
@@ -47,7 +47,7 @@
         </mxCell>
         <mxCell id="HA2_PNLJppdeOKZP9nE9-16" value="Zapytanie do bazy" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="HA2_PNLJppdeOKZP9nE9-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-12" y="108" as="offset" />
+            <mxPoint x="-3" y="108" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HA2_PNLJppdeOKZP9nE9-17" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.786;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=16;" edge="1" parent="1" source="HA2_PNLJppdeOKZP9nE9-11" target="HA2_PNLJppdeOKZP9nE9-8">
@@ -75,7 +75,7 @@
         </mxCell>
         <mxCell id="HA2_PNLJppdeOKZP9nE9-20" value="Wyszukane produkty" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="HA2_PNLJppdeOKZP9nE9-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-21" y="-53" as="offset" />
+            <mxPoint x="14" y="-79" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HA2_PNLJppdeOKZP9nE9-24" value="Zarządzanie zamówieniem&lt;br style=&quot;font-size: 16px;&quot;&gt;(CRUD)" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
@@ -305,13 +305,14 @@
             <mxPoint x="170.24" y="1079" as="targetPoint" />
             <Array as="points">
               <mxPoint x="290" y="1120" />
-              <mxPoint x="131" y="1120" />
+              <mxPoint x="170" y="1120" />
+              <mxPoint x="130" y="1090" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HA2_PNLJppdeOKZP9nE9-65" value="informacja zwrotna" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="HA2_PNLJppdeOKZP9nE9-64">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-21" y="-79" as="offset" />
+            <mxPoint x="86" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HA2_PNLJppdeOKZP9nE9-69" value="Dostawca" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=5;fontSize=16;" vertex="1" parent="1">
